@@ -22,7 +22,7 @@ namespace Dover
             }
             catch (Exception e)
             {
-                System.Windows.Forms.MessageBox.Show(string.Format("Erro inesperado no AddOne: {0}\n {1}", e.Message, e.StackTrace));
+                System.Windows.Forms.MessageBox.Show(string.Format("Unexpected error on Dover: {0}\n {1}", e.Message, e.StackTrace));
             }
         }
 
